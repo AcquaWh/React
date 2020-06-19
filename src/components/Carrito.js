@@ -12,6 +12,8 @@ const Carrito = ({carrito}) => (
             <Producto
                 key={producto.id}
                 producto={producto}
+                carrito={carrito}
+                agregarProducto={agregarProducto}
             />
         )) }
     </div>
